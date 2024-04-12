@@ -58,6 +58,6 @@ app.post("/signup", async (req, res) => {
   }
 });
 
-app.listen(5000, () => {
+app.listen(8080, () => {
   console.log("sever is running on 5000");
 });
