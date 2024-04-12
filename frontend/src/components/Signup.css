@@ -1,0 +1,28 @@
+.first-name {
+  display: flex;
+  width: 63%;
+}
+.signup-input-bg {
+  width: 47%;
+  border: 2px solid darkgray;
+  height: 45px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 2px;
+  display: flex;
+}
+.signup-input-bg:hover {
+  border: 2px solid #4b0082;
+}
+.signup-bg1 {
+  margin-left: 7%;
+  padding-right: 0px;
+}
+.signup-input {
+  width: 60%;
+  outline: none;
+  border: 0px;
+}
+.signup-input {
+  margin-left: 7%;
+}
