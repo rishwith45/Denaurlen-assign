@@ -9,7 +9,7 @@ const userModel = require("./db");
 const jwt = require("jsonwebtoken");
 
 const { authenticateJwt, SECRET } = require("./auth");
-
+const PORT=process.env.PORT || 5000; 
 mongoose.connect(process.env.MANGODB).then(() => {
   console.log("mangodb connected");
 });
@@ -58,6 +58,6 @@ app.post("/signup", async (req, res) => {
   }
 });
 
-app.listen(8000, () => {
-  console.log("sever is running on 8000");
+app.listen( PORT , () => {
+  console.log("sever is running on 3000");
 });
